@@ -1,0 +1,122 @@
+﻿body {
+  margin:0px;
+  background-color:rgba(37, 37, 37, 1);
+  background-image:none;
+  touch-action:none;
+  position:relative;
+  left:-10px;
+  width:937px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u0 {
+  position:absolute;
+  left:10px;
+  top:51px;
+  width:937px;
+  height:35px;
+  font-family:'TrebuchetMS-Bold', 'Trebuchet MS Bold', 'Trebuchet MS';
+  font-weight:700;
+  font-style:normal;
+  font-size:28px;
+  color:#FFFFFF;
+}
+#u0_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:937px;
+  height:35px;
+}
+#u1 {
+  position:absolute;
+  left:2px;
+  top:1px;
+  width:933px;
+  word-wrap:break-word;
+}
+#u2 {
+  position:absolute;
+  left:10px;
+  top:86px;
+  width:937px;
+  height:24px;
+  font-family:'TrebuchetMS-Bold', 'Trebuchet MS Bold', 'Trebuchet MS';
+  font-weight:700;
+  font-style:normal;
+  font-size:14px;
+  color:#666666;
+}
+#u2_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:937px;
+  height:24px;
+}
+#u3 {
+  position:absolute;
+  left:2px;
+  top:6px;
+  width:933px;
+  word-wrap:break-word;
+}
+#u4 {
+  position:absolute;
+  left:10px;
+  top:160px;
+  width:937px;
+  height:70px;
+  font-family:'TrebuchetMS-Bold', 'Trebuchet MS Bold', 'Trebuchet MS';
+  font-weight:700;
+  font-style:normal;
+  font-size:60px;
+  color:#FFFFFF;
+}
+#u4_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:937px;
+  height:70px;
+}
+#u5 {
+  position:absolute;
+  left:2px;
+  top:-1px;
+  width:933px;
+  word-wrap:break-word;
+}
+#u6 {
+  position:absolute;
+  left:430px;
+  top:235px;
+  width:101px;
+  height:10px;
+}
+#u6_start {
+  position:absolute;
+  left:0px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u6_end {
+  position:absolute;
+  left:84px;
+  top:-5px;
+  width:18px;
+  height:20px;
+}
+#u6_line {
+  position:absolute;
+  left:0px;
+  top:4px;
+  width:101px;
+  height:2px;
+}

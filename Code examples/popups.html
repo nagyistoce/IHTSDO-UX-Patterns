@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>IHTSDO</title>
+    <meta name="description" content="IHTSDO - snomed" />
+    <meta name="keywords" content="IHTSDO, snomed" />
+    <meta name="author" content="IHTSDO" />
+
+    <link href='http://fonts.googleapis.com/css?family=Signika+Negative:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/core.css" />
+    <link rel="stylesheet" type="text/css" href="css/typography.css" />
+    <link rel="stylesheet" type="text/css" href="css/buttons.css" />
+    <link rel="stylesheet" type="text/css" href="css/modules.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Tools</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#"><span class="clrPrimary">Welcome</span> User</a></li>
+                </ul>
+            </nav>
+            <a href="index.html" class="logo">IHTSDO logo</a>
+        </header>
+        <section class="content contain pageLayout">
+            <h1>Popup window</h1>
+
+            <div id="popup1">
+                <p><a class="popupOpen" href="#popup1">Open popup window</a></p>
+                <div class="popup">
+                    <div class="contain">
+                        <p class="floatR"><a class="popupClose">Close</a></p>
+                    </div>
+                    <div class="contain">
+                        <h2 class="half clrPrimary floatL">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo quis tortor a consectetur.</h2>
+                        <select class="floatR">
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                            <option>Option 3</option>
+                        </select>
+                    </div>
+                    <p>Ut dictum ornare tortor, rhoncus pellentesque odio aliquet et. Aliquam est elit, luctus et volutpat mattis, porta quis lorem. Maecenas eu purus eget tellus vehicula posuere ullamcorper ac nunc. Mauris vitae quam nec augue bibendum commodo a eget libero. Pellentesque lobortis arcu id venenatis pharetra. Nunc eu neque augue. Cras cursus vestibulum turpis sed dapibus. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec ut elit sodales, volutpat libero eget, dignissim erat.</p>
+                    <p>Nullam a lacus nisl. Suspendisse porta a turpis nec blandit. In non nulla nec justo gravida sollicitudin. Suspendisse risus mauris, venenatis a pretium a, dignissim a enim. Vestibulum mattis, quam gravida fringilla dignissim, lectus risus pellentesque ligula, id luctus sem ligula ut eros. Aenean ut augue at orci sodales pharetra. Nullam at sollicitudin mauris. Sed eleifend, lectus nec porttitor tincidunt, turpis eros rutrum risus, a egestas quam lorem nec leo. Praesent dui augue, aliquam nec purus dictum, scelerisque blandit augue.</p>
+                    <hr />
+                    <div class="floatR">
+                        <p class="btn pos">
+                            <a href="#">Action Btn</a>
+                        </p>
+                        <p class="btn">
+                            <a href="#">Action Btn</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popupBg"></div>
+
+
+        </section>
+        <footer class="pageLayout contain">
+            <a href="index.html"><img src="img/logo-footer.png" height="183" width="90" class="footerLogo" alt="ihtsdo - Leading healthcare terminology worldwide" /></a>
+            <hr />
+            <div class="share">
+                <span><small>Share</small></span>
+                <ul>
+                    <li><a class="linkedin" href="#">linkedin</a></li>
+                    <li><a class="twitter" href="#">twitter</a></li>
+                    <li><a class="google" href="#">googleplus</a></li>
+                </ul>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"><small>Privacy</small></a></li>
+                    <li><a href="#"><small>Cookie policy</small></a></li>
+                    <li><a href="#"><small>Accessibility</small></a></li>
+                    <li><a href="#"><small>Terms and conditions</small></a></li>
+                    <li><a href="#"><small>Site map</small></a></li>
+                    <li><a href="#"><small>&copy;  Copyright IHTSDO 2014</small></a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popup.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#popup1").popup();
+        });
+    </script>
+
+</body>
+</html>
