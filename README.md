@@ -11,6 +11,7 @@ There are two folders within this repository:
 
 Both sets of patters are evolving and changing.
 
+Go here -  http://ihtsdo.github.io/UX-Patterns/ - to see the UX live.
 
 IHTSDO User Experience Design Patterns
 --------------------------------------
